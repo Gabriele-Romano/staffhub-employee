@@ -1,0 +1,44 @@
+# File compilati Java
+*.class
+
+# Directory di output di Maven
+target/
+
+# File di archivio (JAR, WAR, EAR)
+*.jar
+*.war
+*.ear
+
+# File di log
+*.log
+
+# File temporanei di sistema
+.DS_Store
+Thumbs.db
+
+# File di build di Eclipse
+bin/
+
+# File di build di NetBeans
+build/
+nbproject/
+
+# File di configurazione di Visual Studio Code (SE USI VS Code)
+.vscode/
+
+# File di debug
+*.swp
+*.swo
+*.tmp
+
+# File specifici del sistema operativo
+ehthumbs.db
+desktop.ini
+
+# File di Docker (opzionale, ma consigliato tracciare Dockerfile)
+# !Dockerfile # Se vuoi tracciare il Dockerfile (RACCOMANDATO)
+# Se hai una cartella con il context di build, ad esempio "docker-build"
+# docker-build/
+
+# File di configurazione di Maven (opzionale, ma generalmente non tracciati)
+# .mvn/
